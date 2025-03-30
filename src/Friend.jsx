@@ -1,8 +1,12 @@
-// export default function Friend({friend})
 
-// return(
-//     <div>
-//      <h4>Name:</h4>
-//      <p>Email:</p>
-//     </div>
-// )
+
+const Friend = ({friend}) => {
+    const [name]=friend;
+    return (
+        <div>
+            <h2>{name}</h2>
+        </div>
+    );
+};
+
+export default Friend;
